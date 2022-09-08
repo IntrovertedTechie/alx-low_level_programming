@@ -61,5 +61,6 @@ int main(void)
 
 *I just might try it on it ..Thank you for taking time to read */
 
-1.
+1.I would skip the comment but we wrote a script in main.c and make a value of global variable $CFILE  that compile but does not link using -S and outputting it to main.o file using -o. Thank you for reading.
+ 
 
