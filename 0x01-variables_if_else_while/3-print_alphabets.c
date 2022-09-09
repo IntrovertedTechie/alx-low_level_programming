@@ -5,7 +5,7 @@ int main(void)
 {
 int alp;
 int al;
-for(alp=97;alp<=123;alp++)
+for(alp=97;alp<=122;alp++)
 {
 putchar(alp);
 }
