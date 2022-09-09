@@ -7,7 +7,9 @@
 /** more headers goes there 
 *a program that prints all possible
 *combinations of single-digit numbers*/
-int main(void){
+
+int main(void)
+{
 int ch;
 for (ch = 48; ch <= 57; ch++)
 {
