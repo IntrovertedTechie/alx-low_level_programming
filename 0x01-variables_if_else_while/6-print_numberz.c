@@ -1,8 +1,13 @@
 #include <stdio.h>
+
 #include<stdlib.h>
+
 #include<time.h>
+
 /*header*/
+
 /* mainfubction */
+
 int main(void)
 {
 int alp;
