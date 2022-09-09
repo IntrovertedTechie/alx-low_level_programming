@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-
+/** more headers goes there 
+*a program that prints all possible
+*combinations of single-digit numbers*/
 int main(void){
 int ch;
 for (ch = 48; ch <= 57; ch++)
@@ -19,4 +20,4 @@ putchar(32);
 }
 putchar(10); 
 return (0);
-}
+};
