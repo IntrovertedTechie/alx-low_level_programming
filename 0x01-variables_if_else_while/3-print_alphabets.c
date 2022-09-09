@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void)
+{
+int alp;
+int al;
+for(alp=97;alp<=123;alp++)
+{
+putchar(alp);
+}
+for(al=65;al<=90;al++)
+{
+putchar(al);
+}
+return(0);
+}
+ 
+
