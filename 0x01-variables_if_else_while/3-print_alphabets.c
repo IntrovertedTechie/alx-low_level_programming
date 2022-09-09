@@ -13,7 +13,6 @@ for(al=65;al<=90;al++)
 {
 putchar(al);
 }
+putchar(10);
 return(0);
 }
- 
-
