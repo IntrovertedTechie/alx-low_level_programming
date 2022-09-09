@@ -1,15 +1,15 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include<stdlib.h>
-#include<time.h>
-/*header*/
-/* mainfubction */
+#include <time.h>
+/*header up there */
+/* main below */
 int main(void)
 {
-int alp;
-for(alp=48;alp<58;alp++)
+int num;
+for(num=0;num<10;num++)
 {
-putchar(alp);
+printf("%d",n);
 }
-putchar(10);
+printf("\n");
 return(0);
 }
