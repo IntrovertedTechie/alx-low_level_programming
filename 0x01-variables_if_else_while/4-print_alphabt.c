@@ -13,7 +13,7 @@ int main(void)
 int alp;
 for (alp = 97; alp <= 122; alp++)
 {
-if(alp !=101 && alp !=113)
+if (alp != 101 && alp != 113)
 {
 putchar(alp);
 }
