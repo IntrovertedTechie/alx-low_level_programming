@@ -3,10 +3,9 @@
 #include <stdlib.h>
 
 #include <time.h>
-
-/** more headers goes there 
-*a program that prints all possible
-*combinations of single-digit numbers*/
+/** main : a program that prints all 
+ * possible combination of single digit number
+ */
 
 int main(void)
 {
@@ -20,6 +19,6 @@ putchar(44);
 putchar(32);
 }
 }
-putchar(10);/* this is an ascii code for new line*/ 
+putchar(10);
 return (0);
 }
