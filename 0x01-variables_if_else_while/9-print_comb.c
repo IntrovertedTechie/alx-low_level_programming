@@ -4,9 +4,10 @@
 
 #include <time.h>
 /**
- *  main : a program that prints all 
+ * main-entry point 
  * possible combination of single digit number
  * section header:stdio,stdlib,time.
+ * Return :Always 0 (Success)
  */
 int main(void)
 {
