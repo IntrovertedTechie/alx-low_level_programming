@@ -4,7 +4,7 @@
 
 #include <time.h>
 /**
- * main print combination of single digit
+ * main - print combination of single digit
  * Description :Print Single digit.
  * Return: Always 0 (Success)
  */
