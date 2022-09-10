@@ -11,10 +11,10 @@
 int main(void)
 {
 int alp;
-for(alp=48;alp<58;alp++)
+for (alp = 48; alp < 58; alp++)
 {
 putchar(alp);
 }
 putchar(10);
-return(0);
+return (0);
 }
