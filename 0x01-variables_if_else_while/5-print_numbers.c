@@ -6,6 +6,8 @@
 /**
  * main Entry Point
  *
+ * Description: Print Single digit numbers
+ *
  * Return: Always 0 (Sucess)
  */
 int main(void)
