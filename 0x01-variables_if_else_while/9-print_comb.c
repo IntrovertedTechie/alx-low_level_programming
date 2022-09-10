@@ -3,10 +3,11 @@
 #include <stdlib.h>
 
 #include <time.h>
-/** main : a program that prints all 
+/**
+ *  main : a program that prints all 
  * possible combination of single digit number
+ * section header:stdio,stdlib,time.
  */
-
 int main(void)
 {
 int ch;
