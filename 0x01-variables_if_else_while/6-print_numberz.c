@@ -3,11 +3,11 @@
 #include<stdlib.h>
 
 #include<time.h>
-
-/*header*/
-
-/* mainfubction */
-
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Sucess)
+ */
 int main(void)
 {
 int alp;
