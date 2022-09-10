@@ -4,7 +4,7 @@
 
 #include <time.h>
 /**
- * main - Entry point 
+ * main Entry Point 
  *
  * Return: Always 0 (Success)
  */
