@@ -4,9 +4,8 @@
 
 #include <time.h>
 /**
- * main-entry point 
- * possible combination of single digit number
- * section header:stdio,stdlib,time.
+ * main - Entry point 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
