@@ -4,7 +4,7 @@
 
 #include <time.h>
 /**
- * main Entry - Point 
+ * main print combination of single digit
  * Description :Print Single digit.
  * Return: Always 0 (Success)
  */
