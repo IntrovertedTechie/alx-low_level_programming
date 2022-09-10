@@ -4,8 +4,8 @@
 
 #include <time.h>
 /**
- * main Entry Point 
- *
+ * main Entry - Point 
+ * Description :Print Single digit.
  * Return: Always 0 (Success)
  */
 int main(void)
