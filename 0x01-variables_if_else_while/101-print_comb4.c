@@ -16,14 +16,16 @@ for (alp = 48 ; alp <= 57 ; alp++)
 for (alpha = 49; alpha <= 57 ; alpha++)
 {
 for (alfa = 50; alfa <=57 ; alfa++)	
-if (alpha > alp)
+if (alfa > alpha && alpha > alp)
 {		
 putchar(alp);
 putchar(alpha);
-if (alp != 56 || alpha != 57)
+putchar(alfa);
+if (alp != 55 || alpha != 56)
 {
 putchar(44);
 putchar(32);
+}
 }
 }
 }
