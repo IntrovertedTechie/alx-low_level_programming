@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Print combination of two digit
+ * main - Entry point
+ * Print combination of two digit
  *
  * Retuen: Always 0 (Success)
  */
