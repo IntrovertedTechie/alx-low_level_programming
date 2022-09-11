@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/** 
- * main - print combination of two digit
+/**
+ * main - Print combination of two digit
  *
  * Retuen: Always 0 (Success)
  */
