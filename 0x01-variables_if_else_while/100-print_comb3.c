@@ -13,8 +13,7 @@ int alpha;
 for (alp = 48; alp <= 57; alp++)
 {
 for (alpha = 49; alpha <= 57; alpha++)
-if (alpha > alp)
-{		
+if (alpha > alp){		
 putchar(alp);
 putchar(alpha);
 if (alp != 56 || alpha != 57)
