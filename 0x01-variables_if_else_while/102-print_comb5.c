@@ -18,7 +18,7 @@ if (alpha > alp)
 {
 putchar((alp/10) + 48);
 putchar((alp%10) + 48);
-putchar(44);
+putchar(32);
 putchar((alpha/10) + 48);
 putchar((alpha%10) + 48);
 if (alp != 98 || alpha != 99)
