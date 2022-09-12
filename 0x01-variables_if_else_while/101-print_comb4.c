@@ -17,6 +17,7 @@ for (alpha = 49; alpha <= 57; alpha++)
 {
 for (alfa = 50; alfa <= 57; alfa++)
 if (alfa > alpha && alpha > alp)
+{
 putchar(alp);
 putchar(alpha);
 putchar(alfa);
@@ -24,6 +25,7 @@ if (alp != 55 || alpha != 56)
 {
 putchar(44);
 putchar(32);
+}
 }
 }
 }
