@@ -11,11 +11,11 @@ int main(void)
 int alp;
 int alpha;
 int alfa;
-for (alp = 48 ; alp <= 57 ; alp++)
+for (alp = 48; alp <= 57; alp++)
 {
-for (alpha = 49; alpha <= 57 ; alpha++)
+for (alpha = 49; alpha <= 57; alpha++)
 {
-for (alfa = 50; alfa <= 57 ; alfa++)	
+for (alfa = 50; alfa <=57; alfa++)
 if (alfa > alpha && alpha > alp)
 {		
 putchar(alp);
