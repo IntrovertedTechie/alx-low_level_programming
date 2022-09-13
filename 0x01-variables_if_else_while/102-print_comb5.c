@@ -27,6 +27,6 @@ putchar(32);
 }
 }
 }
-putchar(10);
+putchar('\n');
 return (0);
 }
