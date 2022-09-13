@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - LowerCase
+ * 2-print_alphabet_x10 - LowerCaseX10
  *
  * Return: Always 0 ( Success)
  */
