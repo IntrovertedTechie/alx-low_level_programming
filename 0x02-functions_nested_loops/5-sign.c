@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sign.c -> prints sign based on condition
+ * print_sign - prints sign based on condition
  *@n: argument passed
  * Return: 1, 0 -1 depending on conditions
  */
@@ -16,7 +16,8 @@ else if (n == 0)
 _putchar('0');
 return (0);
 }
-else{
+else
+{
 _putchar('-');
 return (-1);
 }
