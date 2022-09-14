@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *Jack_Bauer - Federal agent time log
+ *jack_bauer - Federal agent time log
  */
 void jack_bauer(void)
 {
