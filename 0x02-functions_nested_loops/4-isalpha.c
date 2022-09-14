@@ -3,7 +3,7 @@
  *_isalpha.c -checks if c is Lowercase or Uppercase
  *
  *@c : check if uppercase or lowercase
- * Returns: 1 if c is lowercase or Uppercase or returns 0
+ *Returns: Always 1 if c is lowercase or Uppercase or returns 0
  */
 int _isalpha(int c)
 {
