@@ -7,6 +7,7 @@
  * @str: str parameter
  */
 void puts_half(char *str)
+
 {
 int x;
 int y;
@@ -17,7 +18,7 @@ if (x % 2 == 1)
 {
 	y = x / 2 + 1;
 }
-else 
+else
 {
 	y = x / 2;
 }
