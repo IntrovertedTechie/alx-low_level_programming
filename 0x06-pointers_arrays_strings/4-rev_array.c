@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * reverse_array - this is a function that reverses
@@ -9,17 +8,11 @@
  */
 void reverse_array(int *a, int n)
 {
-int *p, i, aux, q;
-p = a;
-for (i = 0; i < n; i++)
+int tmp, index;
+for (index = n - 1; index >= n / 2; index--)
 {
-p++;
-}
-for (q = 0; q < i / 2; q++)
-{
-aux = a[q];
-a[q] = *p;
-*p = aux;
-p--;
+	tmp = a[n - 1 - index];
+	a[n - 1 - index] = a[index];
+	a[index] = tmp;
 }
 }
