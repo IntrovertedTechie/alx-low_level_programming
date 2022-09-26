@@ -2,18 +2,17 @@
 #include <string.h>
 
 /**
- *  _memset - this memory set function
- *  @s: string
- *  @s: string
- *  @n: an integer
+ *  _memcpy - memory copy
+ * @dest: is destination memory
+ * @src: is source memory
+ * @n: number of bytes to be copied
  *  Return:  a string
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int a;
 
 	for (a = 0; a < n; a++)
-       	         s[a] = b;
-
-	return (s);
+       	        dest[a] = src[a];
+	return (dest);
 }
