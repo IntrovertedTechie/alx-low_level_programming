@@ -4,9 +4,10 @@
 /**
  *  _memset - this memory set function
  *  @s: string
- *  @s: string
- *  @n: an integer
- *  Return:  a string
+ *  @b: byte
+ *  @n: number of space to fill
+ *
+ *  Return: pointer to memory area
  */
 char *_memset(char *s, char b, unsigned int n)
 {
