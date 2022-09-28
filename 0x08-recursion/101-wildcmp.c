@@ -30,9 +30,9 @@ char *wildcard(char *s3, char *s4)
 {
 	if (*s3 != *s4)
 	{
-	  if (*s3 == '\0')
-		return (0);
-	  return (wildcard(s3 + 1, s4));
+		if (*s3 == '\0')
+			return (0);
+		return (wildcard(s3 + 1, s4));
 	}
 	return (test(s3 + 1, s4 + 1, s3, s4));
 }
