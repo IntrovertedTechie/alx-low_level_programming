@@ -10,7 +10,7 @@ int _strlen(char *str)
 {
 	if (*str == '\0')
 		return (0);
-	else 
+	else
 		return (1 + _strlen(str + 1));
 }
 
