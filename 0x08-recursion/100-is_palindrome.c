@@ -13,7 +13,6 @@ int _strlen(char *str)
 	else
 		return (1 + _strlen(str + 1));
 }
-
 /**
  * check_palindrome - checks to see if a string is a palindrome
  * @l: left hand index
@@ -31,7 +30,6 @@ int check_palindrome(int l, int r, char *p)
 	else
 		return (check_palindrome(l + 1, r - 1, p));
 }
-
 /**
  *  is_palindrome - states if a string is a palindrome
  *  @s: string to check
@@ -44,4 +42,3 @@ int is_palindrome(char *s)
 	i = _strlen(s) - 1;
 	return (check_palindrome(0, i, s));
 }
-
