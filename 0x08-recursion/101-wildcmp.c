@@ -30,9 +30,9 @@ char *wildcard(char *s3, char *s4)
 {
 	if (*s3 != *s4)
 	{
-	 	if (*s3 == '\0')
-			return (0);
-		return (wildcard(s3 + 1, s4));
+	  if (*s3 == '\0')
+		return (0);
+	  return (wildcard(s3 + 1, s4));
 	}
 	return (test(s3 + 1, s4 + 1, s3, s4));
 }
@@ -45,7 +45,7 @@ char *wildcard(char *s3, char *s4)
  * Return: 1 if match, 0 if not
  */
 int wildcmp(char *s1, char *s2)
-{	
+{
 	char *p;
 
 	if (*s2 == '*' && *(s2 + 1) == '\0')
