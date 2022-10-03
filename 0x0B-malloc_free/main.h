@@ -10,4 +10,3 @@ char *argstostr(int ac, char **av);
 void print_tab(char **tab);
 char **strtow(char *str);
 int wrdcnt(char *s);
-int _putchar(char c);
