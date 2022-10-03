@@ -7,7 +7,7 @@
  * @av: double pointer to arguments.
  *
  * Return:pointer to new string, or NULL if error.
- */ 
+ */
 char *argstostr(int ac, char **av)
 {
 	int i, j, k = 0, n = 0;
