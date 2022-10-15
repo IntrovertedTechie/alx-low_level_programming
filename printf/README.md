@@ -82,7 +82,7 @@ Use a local buffer of 1024 chars in order to call write as little as possible.
 
 File Descriptions
 
-_printf.c: - contains the fucntion _printf, which uses the prototype int _printf(const char *format, ...);. The format string is composed of zero or more directives. See man 3 printf for more detail. _printf will return the number of characters printed (excluding the null byte used to end output to strings) and will write output to stdout, the standard output stream.
+_printf.c: - contains the function _printf, which uses the prototype int _printf(const char *format, ...);. The format string is composed of zero or more directives. See man 3 printf for more detail. _printf will return the number of characters printed (excluding the null byte used to end output to strings) and will write output to stdout, the standard output stream.
 
 _putchar.c: - contains the function _putchar, which writes a character to stdout.
 
@@ -107,46 +107,3 @@ Elizabeth Elizabeth Ezenwanyi
 
 
 Adio Adebayo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
