@@ -1,3 +1,4 @@
+#include<stddef.h>
 #include "lists.h"
 /**
  * add_node_end - Add a new node at the end of a list.

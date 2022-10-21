@@ -1,6 +1,6 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include "lists.h"
-
+#include<stddef.h>
 /**
  * free_list - frees a linked list
  * @head: list_t list to be freed
