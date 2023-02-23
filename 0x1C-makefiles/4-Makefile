@@ -1,24 +1,26 @@
-# Compiler to be used
-CC := gcc
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+CFLAGS = -Wall -Werror -Wextra -pedantic
 
-# Compiler flags
-CFLAGS := -Wall -Werror -Wextra -pedantic
 
-# Source files
-SRC := main.c school.c
-
-# Object files
-OBJ := $(SRC:.c=.o)
-
-# Name of the executable
-NAME := school
-
-# Program to delete files
-RM := rm -f
 
 .PHONY: all clean oclean fclean re
-all: $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+
+# Default target
+all: $(NAME)
+
+# Rule to build the executable
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Rule to compile source files
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+
 
 clean:
 	$(RM) *~ $(NAME)
@@ -26,6 +28,6 @@ clean:
 oclean:
 	$(RM) $(OBJ)
 
-fclean: clean oclean 
+fclean: clean oclean
 
-re: oclean all
+re: fclean all
