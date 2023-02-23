@@ -15,14 +15,14 @@ def island_perimeter(grid):
         int: perimeter of the island
     """
 
-    # Find the first land cell
+
     for i in range(len(grid)):
         for j in range(len(grid[i])):
             if grid[i][j] == 1:
                 # Count the perimeter starting from this cell
                 return dfs(grid, i, j)
 
-    # No land cell found
+    
     return 0
 
 
@@ -60,4 +60,3 @@ def dfs(grid, i, j):
         dfs(grid, i, j-1) +
         dfs(grid, i, j+1)
     )
-
