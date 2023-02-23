@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
@@ -6,6 +7,25 @@ RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 
+=======
+4-Makefile# Compiler to be used
+CC = gcc
+
+# Compiler flags
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+# Source files
+SRC = main.c school.c
+
+# Object files
+OBJ = $(SRC:.c=.o)
+
+# Name of the executable
+NAME = school
+
+# Program to delete files
+RM = rm -f
+>>>>>>> a05557cd0c50cb78b4fa6363ec99c0ce54a8565f
 
 .PHONY: all clean oclean fclean re
 
