@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-CC = gcc
-SRC = main.c school.c
-OBJ = $(SRC:.c=.o)
-NAME = school
-RM = rm -f
-CFLAGS = -Wall -Werror -Wextra -pedantic
-
-
-=======
-4-Makefile# Compiler to be used
+# Compiler
 CC = gcc
 
 # Compiler flags
@@ -20,34 +10,36 @@ SRC = main.c school.c
 # Object files
 OBJ = $(SRC:.c=.o)
 
-# Name of the executable
+# Executable name
 NAME = school
 
-# Program to delete files
+# Programs to delete files
 RM = rm -f
->>>>>>> a05557cd0c50cb78b4fa6363ec99c0ce54a8565f
 
 .PHONY: all clean oclean fclean re
 
-# Default target
+# Default rule: build executable
 all: $(NAME)
 
-# Rule to build the executable
+# Rule to build executable
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
-# Rule to compile source files
+# Rule to compile source files into object files
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-
-
+# Rule to clean Emacs, Vim, executable, and object files
 clean:
-	$(RM) *~ $(NAME)
+	$(RM) *~ \#* $(NAME) $(OBJ)
 
+# Rule to clean only object files
 oclean:
 	$(RM) $(OBJ)
 
-fclean: clean oclean
+# Rule to clean Emacs, Vim, executable, and object files
+fclean: clean
 
+# Rule to force recompilation of all source files
 re: fclean all
+
