@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stddef.h>
 #include "search_algos.h"
-
-
 /**
  *interpolation_search - search algorithm
  *@array: the array of all element.
@@ -10,7 +8,6 @@
  *@value: the item.
  *Return: the item.
  */
-
 int interpolation_search(int *array, size_t size, int value)
 {
 	size_t low = 0, high = size - 1, pos;
